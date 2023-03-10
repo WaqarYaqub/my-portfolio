@@ -75,12 +75,13 @@ import wolframalpha from '../assets/svg/skills/wolframalpha.svg'
 
 import canva from '../assets/svg/skills/canva.svg'
 
-
 export const skillsImage = (skill) => {
     const skillID = skill.toLowerCase();
     switch (skillID) {
         case 'gcp':
             return gcp;
+            case 'express js':
+                return "https://p7.hiclipart.com/preview/306/37/167/node-js-javascript-web-application-express-js-computer-software-others.jpg";
         case 'html':
             return html;
         case 'photoshop':
